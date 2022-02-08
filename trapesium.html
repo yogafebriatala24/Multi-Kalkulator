@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hitung Trapesium</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="trapesium">
+      <table>
+        <thead>
+          <tr>
+            <th>Trapesium</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Masukan nilai sisi sejajar atas</td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                id="ipt_sisiSejajarAtas"
+                class="input-trapesium"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Masukan nilai sisi sejajar bawah</td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                id="ipt_sisiSejajarBawah"
+                class="input-trapesium"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Masukan nilai sisi miring</td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" id="ipt_sisiMiring" class="input-trapesium" />
+            </td>
+          </tr>
+          <tr>
+            <td>Masukan nilai tinggi</td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" id="ipt_tinggi" class="input-trapesium" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button onclick="hitung()" class="hitung">Hitung</button>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Luas trapesium</td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                id="opt_luas"
+                class="input-trapesium"
+                disabled
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Keliling trapesium</td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                id="opt_keliling"
+                class="hitung-keliling"
+                disabled
+              />
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
